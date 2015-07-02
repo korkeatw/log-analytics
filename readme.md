@@ -33,33 +33,33 @@ If you haven't not get any errors. The result will be like this
 ```
 GET /api/users/{user_id}/count_pending_messages
     calledNumber     =     2430
-    respTimeMean     =     26.00ms
-    respTimeMedian   =     15.00ms
-    respTimeMode     =     11
+    respTimeMean     =     26ms
+    respTimeMedian   =     15ms
+    respTimeMode     =     11ms
     mostCalledDyno   =     web.2
 GET /api/users/{user_id}/get_messages
     calledNumber     =     652
     respTimeMean     =     62.17ms
-    respTimeMedian   =     32.00ms
-    respTimeMode     =     23
+    respTimeMedian   =     32ms
+    respTimeMode     =     23ms
     mostCalledDyno   =     web.11
 GET /api/users/{user_id}/get_friends_progress
     calledNumber     =      1117
     respTimeMean     =      111.90ms
-    respTimeMedian   =      558.00ms
-    respTimeMode     =      35
+    respTimeMedian   =      558ms
+    respTimeMode     =      35ms
     mostCalledDyno   =      web.5
 GET /api/users/{user_id}/get_friends_score
     calledNumber     =      1533
     respTimeMean     =      228.77ms
-    respTimeMedian   =      766.00ms
-    respTimeMode     =      67
+    respTimeMedian   =      766ms
+    respTimeMode     =      67ms
     mostCalledDyno   =      web.7
 POST /api/users/{user_id}
     calledNumber     =      2022
     respTimeMean     =      82.78ms
-    respTimeMedian   =      46.00ms
-    respTimeMode     =      23
+    respTimeMedian   =      46ms
+    respTimeMode     =      23ms
     mostCalledDyno   =      web.11
 GET /api/users/{user_id}
     calledNumber     =       0
