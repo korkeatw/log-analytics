@@ -86,3 +86,11 @@ node analytics.js  1.13s user 0.06s system 98% cpu 1.257 total
 ```
 
 >__NOTE:__ The format of result depend on your operating system Shell
+
+### Version of the script
+The analytics scripts provided for 2 versions
+
+1. ```analytics.js``` is use for regular file. It's split each line of log into
+list.
+2. ```analytics-stream.js``` designed for very large file It's use Streaming
+API to read file. This is for solve memory usage issue.
