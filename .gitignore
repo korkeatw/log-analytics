@@ -1,0 +1,6 @@
+*.swp
+*.pid
+*.seed
+log/
+build/
+node_modules/

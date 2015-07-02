@@ -1,0 +1,23 @@
+{
+  "name": "log-analytics",
+  "version": "1.0.0",
+  "description": "Simple log analytics",
+  "main": "analytics.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "keywords": [
+    "log",
+    "analytics"
+  ],
+  "author": "Korkeat W. <korkeat.wannapat@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jslint": "^0.9.1",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {}
+}
