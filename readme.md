@@ -18,51 +18,55 @@ if you want to use it.
 
 ## Usage
 The first step, you have to ```git clone``` source code.
+
 ```
 $git clone git@github.com:khasathan/log-analytics.git
 $cd log-analytics
 ```
+
 After that, replace ```config/config.js``` as your own value. Now, It's ready
 to use. You can run script by:
+
 ```
 $node analytics.js
 ```
 
 ### The Result
 If you haven't not get any errors. The result will be like this
+
 ```
 GET /api/users/{user_id}/count_pending_messages
-    calledNumber     =     2430
-    respTimeMean     =     26ms
-    respTimeMedian   =     15ms
-    respTimeMode     =     11ms
+    calledNumber     =     2430 times
+    respTimeMean     =     26 ms
+    respTimeMedian   =     15 ms
+    respTimeMode     =     11 ms
     mostCalledDyno   =     web.2
 GET /api/users/{user_id}/get_messages
-    calledNumber     =     652
-    respTimeMean     =     62.17ms
-    respTimeMedian   =     32ms
-    respTimeMode     =     23ms
+    calledNumber     =     652 times
+    respTimeMean     =     62.17 ms
+    respTimeMedian   =     32 ms
+    respTimeMode     =     23 ms
     mostCalledDyno   =     web.11
 GET /api/users/{user_id}/get_friends_progress
-    calledNumber     =      1117
-    respTimeMean     =      111.90ms
-    respTimeMedian   =      558ms
-    respTimeMode     =      35ms
+    calledNumber     =      1117 times
+    respTimeMean     =      111.90 ms
+    respTimeMedian   =      558 ms
+    respTimeMode     =      35 ms
     mostCalledDyno   =      web.5
 GET /api/users/{user_id}/get_friends_score
-    calledNumber     =      1533
-    respTimeMean     =      228.77ms
-    respTimeMedian   =      766ms
-    respTimeMode     =      67ms
+    calledNumber     =      1533 times
+    respTimeMean     =      228.77 ms
+    respTimeMedian   =      766 ms
+    respTimeMode     =      67 ms
     mostCalledDyno   =      web.7
 POST /api/users/{user_id}
-    calledNumber     =      2022
-    respTimeMean     =      82.78ms
-    respTimeMedian   =      46ms
-    respTimeMode     =      23ms
+    calledNumber     =      2022 times
+    respTimeMean     =      82.78 ms
+    respTimeMedian   =      46 ms
+    respTimeMode     =      23 ms
     mostCalledDyno   =      web.11
 GET /api/users/{user_id}
-    calledNumber     =       0
+    calledNumber     =       0 time
     respTimeMean     =       N/A
     respTimeMedian   =       N/A
     respTimeMode     =       N/A
@@ -71,12 +75,13 @@ GET /api/users/{user_id}
 
 For view execution time of the script so, you can follow this command to due
 with it.
+
 ```
 $time node analytics.js
 ...
 ...
 GET /api/users/{user_id}
-    calledNumber     =       0
+    calledNumber     =       0 time
     respTimeMean     =       N/A
     respTimeMedian   =       N/A
     respTimeMode     =       N/A
