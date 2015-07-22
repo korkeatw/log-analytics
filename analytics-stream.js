@@ -23,7 +23,9 @@ logStream.on('line', function (logLine) {
     if (!logLine.match(urlsMatcher)) {
         return;
     }
-    analytics.process(logLine);
+    process.nextTick(function () {
+        analytics.process(logLine);
+    });
 });
 
 logStream.on('close', function () {

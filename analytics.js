@@ -19,7 +19,7 @@ var analytics = new LogAnalytics(Config),
 
 logLines.forEach(function (logLine) {
     // filter out unwanted log
-    if (!logLine.match(urlsMatcher)) {
+    if (!urlsMatcher.test(logLine)) {
         return;
     }
     analytics.process(logLine);
